@@ -12,7 +12,7 @@ public class Data_Generetic {
         try (FileWriter writer = new FileWriter("data.txt", false)) {
             int randomNumber = rand.nextInt(51) + 50;
             for (int i = 0; i < randomNumber; i++) {
-                int size = rand.nextInt(9900) + 100;
+                int size = rand.nextInt(9901) + 100;
                 int[] array = new int[size];
 
                 for (int j = 0; j < size; j++) {
